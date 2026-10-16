@@ -1121,6 +1121,7 @@ Returns ``true`` if this string represents a valid floating-point number. A vali
     print("24".is_valid_float())    # Prints true
     print("7e3".is_valid_float())   # Prints true
     print("Hello".is_valid_float()) # Prints false
+    print("1.8Hi".is_valid_float()) # Prints false
 
 .. rst-class:: classref-item-separator
 
@@ -1196,6 +1197,7 @@ Returns ``true`` if this string represents a valid integer. A valid integer only
     print("Hi".is_valid_int())   # Prints false
     print("+3".is_valid_int())   # Prints true
     print("-12".is_valid_int())  # Prints true
+    print("1Hi".is_valid_int())  # Prints false
 
 .. rst-class:: classref-item-separator
 
